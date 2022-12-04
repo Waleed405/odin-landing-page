@@ -1,16 +1,18 @@
 .topnav {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 60px;
-    background-color: #1f2937
+    background-color: #1f2937;
+    padding-right: 12%;
+    padding-left: 12%;
 }
 
 .topnav-links {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 40%;
+    width: 500px;
     justify-content: space-around;
 }
 
@@ -18,6 +20,7 @@
     display: inline-block;
     font-size: 18px;
     color: #E5E7EB;
+    margin: 6px;
 }
 
 .header-logo {

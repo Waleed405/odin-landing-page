@@ -1,0 +1,31 @@
+.topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 60px;
+    background-color: #1f2937
+}
+
+.topnav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 40%;
+    justify-content: space-around;
+}
+
+.topnav-links div{
+    display: inline-block;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-logo {
+    padding: 4px;
+    width: 66px;
+}
+
+.logo-image {
+    height: 48px;
+    width: auto;
+}

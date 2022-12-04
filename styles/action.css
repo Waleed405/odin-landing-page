@@ -1,0 +1,36 @@
+.action-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 340px;
+}
+
+.action-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 6px;
+    width: 940px;
+    height: 140px;
+}
+
+.action-content-text { 
+    padding: 20px;
+    color: white;
+}
+
+.action-header {
+    font-weight: 900;
+}
+
+.action-button {
+    background-color: #3882F6;
+    padding: 3px;
+    border-radius: 6px;
+    width: 120px;
+    height: 36px;
+    border: 2px solid white;
+    color: white;
+    font-weight: 900;
+}
